@@ -1,0 +1,10 @@
+runtime:
+  # Runs headless tests in Godot 4.5
+  test: "\"C:\\Godot 4\\Godot_v4.5-stable_win64.exe\" --headless --run-tests"
+
+  # Exports a Windows build headlessly (you can tweak this later)
+  build: "\"C:\\Godot 4\\Godot_v4.5-stable_win64.exe\" --headless --export-release windows"
+
+defaults:
+  language: "gdscript"
+  review: true
